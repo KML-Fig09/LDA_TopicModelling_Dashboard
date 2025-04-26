@@ -1,0 +1,140 @@
+Neutrino-Induce
+d
+Radiation
+Haza
+rd
+Muon
+Deca
+y
+
+
+µ−
+==> νµ
++ νe
++ e−
+µ
++
+==> νµ
++ νe
++ e
++
+T
+ypical
+op
+ening
+angle:
+θν ≈
+
+γµ
+F
+o
+r
+
+T
+eV
+muons
+θµ ≈
+0 µrad
+
+ν
+INTERA
+CTIONS
+(DIS)
+T
+eV-scale
+NEUTRINOS
+interact
+p
+rima
+rily
+through
+Deep
+Inelastic
+Scattering
+(DIS)
+on
+nucleons
+(N)
+νµe
++ N −→
+µe
++Hadrons
+(%)
+ν
++ Hadrons
+(%)
+
+Pro
+ducing
+the
+pa
+rticles:
+Hadron
+meters ≈
+0%
+showers
+of ET
+Electromag. meters ≈
+0%
+showers
+of ET
+Muons
+km
+≈
+0%
+of ET
+Neutrino
+≈
+0%
+of ET
+
+Question:
+isn't
+the
+neutrino
+cross-sec
+tion
+very
+small?
+σtotal
+νN
+≈
+ ×
+0− cm
+ × Eν
+[TeV
+]
+The
+o-site
+dose
+limit
+is:
+0 mrem/year
+=
+00 TeV/kg/year
+(fo
+r
+min.ion.radiation)
+≈Energy of
+0
+ν′s
+
+The
+small
+cross-se
+ction
+is
+comp
+ensated
+b
+y:
+ ×
+0
+
+N/kg
+ ×
+0
+ ν
+/y
+ea
+r

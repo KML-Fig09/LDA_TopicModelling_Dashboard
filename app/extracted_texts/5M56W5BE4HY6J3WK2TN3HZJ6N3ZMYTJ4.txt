@@ -1,0 +1,490 @@
+D
+D
+D
+D
+D
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+:
+,
+,
+,
+,
+,
+,
+Ñ
+Ñ
+Ñ
+Ñ
+Ñ
+Ñ
+Ñ
+Ñ
+Ñ
+ZONE AE
+(EL 13)
+NOTE: MAP AREA SHOWN ON THIS PANEL IS LOCATED
+WITHIN TOWNSHIP 17 NORTH, RANGE 9 WEST AND
+TOWNSHIP 18 NORTH, RANGE 9 WEST.
+T. 17 N.
+T. 18 N.
+PROFILE BASELINE
+WISHKAH
+RIVER
+VICTORY AVE
+Stewart Creek
+VALLEY VIEW RD
+ZONE AE
+ZONE A
+ZONE A
+ZONE A
+ZONE AE
+(EL 13)
+ZONE AE
+(EL 13)
+City  of Aberdeen
+530058
+1
+12
+1
+101
+1
+101
+1
+12
+1
+101
+1
+101
+11TH ST
+ESSEX AVE
+2ND ST
+SPUR ST
+2ND ST
+TERRACE AVE
+RICE ST
+COUNCIL CREST DR
+STEWART BLVD
+L ST
+GREEN WAY
+LINCOLN
+ST
+I ST
+DIVISION ST
+ALDEN RD
+G ST
+6TH ST
+SIMPSON
+AVE
+CHERRY ST
+ISABEL WAY
+J ST
+SAM BENN PKWY
+M ST
+SCAMMEL
+ST
+7TH AVE
+H ST
+JEFFERSON
+ST
+VALLEY RD
+RANDALL ST
+BLAND
+ST
+JEFFRIES
+ST
+K ST
+1ST AVE
+6TH ST
+B ST
+3RD ST
+5TH ST
+2ND AVE
+4TH ST
+F ST
+F ST
+ARNOLD ST
+WASHINGTON
+ST
+N ST
+8TH AVE
+1ST AVE
+RIVER ST
+BAY AVE
+1ST ST
+10TH AVE
+MARKET ST
+5TH ST
+WILLIAMS
+ST
+F ST
+C ST
+5TH AVE
+E ST
+RIVERVIEW DR
+I ST
+5TH ST
+GRAYS POINTE LN
+MONROE ST
+9TH ST
+L ST
+MCKINLEY AVE
+WISHKAH
+ST
+MARION
+ST
+CONGER
+ST
+10TH ST
+THORNTON
+ST
+EARL ST
+HANNA AVE
+4TH AVE
+MICHIGAN ST
+ALDER ST
+8TH ST
+1ST ST
+ARNOLD ST
+M ST
+PINCKNEY
+CT
+7TH ST
+E ST
+PROSPECT AVE
+E ST
+SUMNER
+AVE
+3RD AVE
+K ST
+STEWART
+ST
+DUFFY ST
+PACIFIC
+AVE
+D ST
+DIVISION ST
+CANYON CT
+7TH ST
+8TH ST
+9TH AVE
+BAILA WAY
+6TH AVE
+ABERDEEN
+AVE
+STATE
+ST
+HAIGHT ST
+BURLEIGH AVE
+RAILROAD
+RAILROAD
+RAILROAD
+Stewart Creek
+GRAYS HARBOR
+Grays Harbor County
+Unincorporated Areas
+530057
+City  of Aberdeen
+530058
+31
+33
+32
+7
+8
+9
+6
+5
+4
+T. 17 N.
+T. 18 N.
+SC0786
+SC0742
+SC0787
+SC0785
+!(
+079
+!(
+078
+!(
+077
+!(
+076
+!(
+075
+14
+14
+JOINS PANEL 1154
+JOINS PANEL 0940
+JOINS PANEL 1156
+JOINS PANEL 1151
+625000 FT
+.
+620000 FT
+.
+615000 FT
+.
+810000 FT
+7
+5205000mN .
+5204000mN .
+5203000mN .
+438000mE
+7
+437000mE
+7
+436000mE
+7
+46° 58' 07.5"
+123° 48' 45"
+46° 58' 07.5"
+123° 50' 37.5"
+47° 00' 00"
+123° 50' 37.5"
+47° 00' 00"
+123° 48' 45"
+LIMIT OF STUDY
+LIMIT OF STUDY
+COMMUNITY
+NUMBER
+PANEL
+SUFFIX
+CONTAINS:
+(SEE MAP INDEX FOR FIRM PANEL LAYOUT)
+Federal  Emergency  Management Agency
+FLOOD INSURANCE RATE MAP
+FIRM
+MAP REPOSITORIES
+Refer to Map Repositories list on Map Index
+EFFECTIVE DATE OF COUNTYWIDE
+FLOOD INSURANCE RATE MAP
+EFFECTIVE DATE(S) OF REVISION(S) TO THIS PANEL
+(Date of Revision) - to change Base Flood Elevations, to change Special Flood Hazard 
+Areas and to reflect updated topographic information.
+For community map revision history prior to countywide mapping, refer to the Community
+Map History table located in the Flood Insurance Study report for this jurisdiction.
+To determine if flood insurance is available in this community, contact your insurance agent
+or call the National Flood Insurance Program at 1-800-638-6620.
+Notice to User:  The  Map  Number  shown  below
+should  be  used   when  placing  map  orders;  the
+Community  Number    shown  above  should  be
+used  on  insurance   applications  for  the  subject 
+community.
+EFFECTIVE DATE
+MAP NUMBER
+53027C1152E
+GRAYS HARBOR,
+WASHINGTON
+AND INCORPORATED AREAS
+ABERDEEN, CITY OF
+530058
+1152
+E
+GRAYS HARBOR COUNTY
+530057
+1152
+E
+NFIP
+NATIONAL FLOOD INSURANCE PROGRAM
+PANEL 1152E
+PANEL 1152 OF 1525
+250
+1000
+0
+FEET
+150
+300
+0
+METERS
+MAP SCALE 1" = 500’
+500
+150
+NOTES TO USERS
+This map is for use in administering the National Flood Insurance Program. It does
+not necessarily identify all areas subject to flooding, particularly from local drainage
+sources of small size.  The community map repository should be consulted for
+possible updated or additional flood hazard information.
+To obtain more detailed information in areas where Base Flood Elevations (BFEs)
+and/or floodways have been determined, users are encouraged to consult the Flood
+Profiles and Floodway Data and/or Summary of Stillwater Elevations tables contained
+within the Flood Insurance Study (FIS) Report that accompanies this FIRM.  Users
+should be aware that BFEs shown on the FIRM represent rounded whole-foot
+elevations.  These BFEs are intended for flood insurance rating purposes only and
+should not be used as the sole source of flood elevation information.  Accordingly,
+flood elevation data presented in the FIS Report should be utilized in conjunction with
+the FIRM for purposes of construction and/or floodplain management.
+Coastal Base Flood Elevations shown on this map apply only landward of 0.0
+North American Vertical Datum of 1988 (NAVD 88).  Users of this FIRM should be
+aware that coastal flood elevations are also provided in the Summary of Stillwater
+Elevations table in the Flood Insurance Study Report for this jurisdiction.  Elevations
+shown in the Summary of Stillwater Elevations table should be used for construction
+and/or floodplain management purposes when they are higher than the elevations
+shown on this FIRM.
+Boundaries of the floodways were computed at cross sections and interpolated
+between cross sections.  The floodways were based on hydraulic considerations with
+regard to requirements of the National Flood Insurance Program.  Floodway widths
+and other pertinent floodway data are provided in the Flood Insurance Study Report
+for this jurisdiction.
+Certain areas not in Special Flood Hazard Areas may be protected by flood control
+structures.  Refer to Section 2.4 "Flood Protection Measures" of the Flood Insurance
+Study Report for information on flood control structures for this jurisdiction.
+The projection used in the preparation of this map was Universal Transverse
+Mercator (UTM) zone 10.  The horizontal datum was NAD 83, GRS 1980
+spheroid.  Differences in datum, spheroid, projection or UTM zones used in the
+production of FIRMs for adjacent jurisdictions may result in slight positional
+differences in map features across jurisdiction boundaries.  These differences do not
+affect the accuracy of this FIRM.
+Flood elevations on this map are referenced to the North American Vertical Datum of
+1988.  These flood elevations must be compared to structure and ground elevations
+referenced to the same vertical datum.  For information regarding conversion
+between the National Geodetic Vertical Datum of 1929 and the North American
+Vertical Datum of 1988, visit the National Geodetic Survey website at
+http://www.ngs.noaa.gov or contact the National Geodetic Survey at the following
+address:
+NGS Information Services
+NOAA, N/NGS12
+National Geodetic Survey
+SSMC-3, #9202
+1315 East-West Highway
+Silver Spring, Maryland 20910-3282
+(301) 713-3242
+To obtain current elevation, description, and/or location information for bench marks
+shown on this map, please contact the Information Services Branch of the National
+Geodetic Survey at (301) 713- 3242, or visit its website at http://www.ngs.noaa.gov.
+Base map  information shown on this FIRM was derived from multiple sources.
+Base map files were provided in digital format by Grays Harbor County GIS 
+Department, WA DNR, and NGS.  This information was compiled at various
+map scales during the time period 2004-2008.
+The profile baselines depicted on this map represent the hydraulic modeling baselines 
+that match the flood profiles in the FIS report.  As a result of improved topographic data, 
+the profile baseline, in some cases, may deviate significantly from the channel 
+centerline or appear outside the SFHA.
+Corporate limits shown on this map are based on the best data available at the time
+of publication.  Because changes due to annexations or de-annexations may have
+occurred after this map was published, map users should contact appropriate
+community officials to verify current corporate limit locations.
+Please refer to the separately printed Map Index for an overview map of the
+county showing the layout of map panels; community map repository addresses;
+and a Listing of Communities table containing National Flood Insurance Program
+dates for each community as well as a listing of the panels on which each community
+is located.
+For information on available products associated with this FIRM visit the Map
+Service Center (MSC) website at http://msc.fema.gov. Available products may
+include previously issued Letters of Map Change, a Flood Insurance Study Report,
+and/or digital versions of this map. Many of these products can be ordered or
+obtained directly from the MSC website.
+If you have questions about this map, how to order products, or the National
+Flood Insurance Program in general, please call the FEMA Map Information
+eXchange (FMIX) at 1-877-FEMA-MAP (1-877-336-2627) or visit the FEMA
+website at http://www.fema.gov/business/nfip.
+Zone D boundary
+Floodway boundary
+1% Annual Chance Floodplain Boundary
+0.2% Annual Chance Floodplain Boundary
+*Referenced to the North American Vertical Datum of 1988
+D
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+LEGEND
+SPECIAL FLOOD HAZARD AREAS (SFHAs) SUBJECT TO
+INUNDATION  BY  THE  1% ANNUAL  CHANCE  FLOOD
+ZONE A
+ZONE AE
+ZONE AH
+ZONE AO
+ZONE AR
+ZONE A99
+ZONE V
+ZONE VE
+ZONE X
+FLOODWAY AREAS IN ZONE AE
+OTHER FLOOD AREAS
+OTHER AREAS
+ZONE X
+ZONE D
+The 1% annual chance flood (100-year flood), also  known as the  base flood, is the flood that has
+a 1% chance of being equaled or exceeded in  any given year.  The Special Flood Hazard Area is
+the area subject to flooding by the 1% annual chance flood.  Areas of Special Flood Hazard
+include Zones A, AE, AH, AO, AR, A99, V, and VE.  The Base Flood Elevation is the water-surface
+elevation of the 1% annual chance flood.
+No Base Flood Elevations determined.
+Base Flood Elevations determined.
+Flood depths of 1 to 3 feet (usually areas of ponding);  Base Flood Elevations
+determined.
+Flood depths of 1 to 3 feet (usually sheet flow on sloping terrain);  average
+depths determined. For areas of alluvial fan flooding, velocities also determined.
+Special Flood Hazard Areas formerly protected from the 1% annual chance
+flood by a flood control system that was subsequently decertified.  Zone
+AR indicates that the former flood control system is being restored to provide
+protection from the 1% annual chance or greater flood.
+Area to be protected from 1% annual chance flood by a Federal flood
+protection system under construction; no Base Flood Elevations determined.
+Coastal flood zone with velocity hazard (wave action);  no Base Flood Elevations
+determined.
+Coastal flood zone with velocity hazard (wave action);  Base Flood Elevations
+determined.
+The floodway is the channel of a stream plus any adjacent floodplain areas that must be kept free of
+encroachment so that the 1% annual chance flood can  be carried without substantial increases in
+flood heights.
+Areas of 0.2% annual chance flood;  areas of 1% annual chance flood with
+average depths of less than 1 foot or with drainage areas less than 1 square
+mile; and areas protected by levees from 1% annual chance flood.
+Areas determined to be outside the 0.2% annual chance floodplain.
+Areas in which flood hazards are undetermined, but possible.
+CBRS areas and OPAs are normally located within or adjacent to Special Flood Hazard Areas.
+CBRS and OPA boundary
+Boundary dividing Special Flood Hazard Area Zones and boundary 
+dividing Special Flood Hazard Areas of different Base Flood Elevations, 
+flood depths, or flood velocities.
+Base Flood Elevation value where uniform within zone;  elevation in
+feet*
+Cross section line
+Transect line
+Geographic coordinates referenced to the North American Datum of
+1983 (NAD 83) Western Hemisphere
+1000-meter Universal Transverse Mercator grid values, zone 10
+4989000m N
+5000-foot ticks: Washington State Plane South Zone 
+(FIPS Zone 4602), Lambert Conformal Conic projection
+3100000 FT
+Bench mark (see explanation in Notes to Users section of this FIRM
+panel)
+River Station
+Base Flood Elevation line and value;  elevation in feet*
+COASTAL BARRIER RESOURCES SYSTEM (CBRS)  AREAS
+OTHERWISE PROTECTED AREAS (OPAs)
+513
+(EL 987)
+45° 02  08 ,  93° 02  12
+DX5510
+FT1,000
+A
+A
+23
+23
+PRELIMINARY
+OCTOBER 25, 2013

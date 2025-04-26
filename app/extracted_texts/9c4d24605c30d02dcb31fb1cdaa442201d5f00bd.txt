@@ -1,0 +1,596 @@
+
+Executive Summary
+Since November 2020, the OCHA Centre for Humanitarian Data (the Centre) has been investigating the
+usability and insight of COVID-19 funding data made available through the International Aid
+Transparency Initiative (IATI) standard. Our experience has given us a strong appreciation of the value
+of the IATI standard and its community of publishers. We have also seen where IATI falls short by
+making data use unnecessarily difficult and time consuming, and missing opportunities to make
+international aid data more transparent.
+Over the course of this project, the Centre conducted research with IATI stakeholders and publishers to
+better understand their needs and capabilities. We developed and documented algorithms to
+deduplicate and aggregate IATI data into meaningful figures. We produced an IATI COVID-19 Funding
+Dashboard for users to visualize, explore and analyze all of the published IATI data that is related to the
+pandemic. And we created a data story to share key insights about COVID-19 commitments and
+spending.
+In our engagement with IATI publishers, we found that they were mainly focused on their own data
+and whether it was accurate. The dashboard allowed publishers to see their data visualized, often for
+the first time, making data issues immediately apparent. We know of several publishers that made
+changes to their IATI data after using the dashboard, creating a positive feedback loop.
+At the same time, our behind-the-scenes technical work to aggregate IATI data revealed a host of
+issues with data quality. We faced significant challenges evaluating whether data was loosely or strictly
+related to COVID-19. In attempting to use algorithmic processes to combine IATI data, we then had to
+spend time considering how confident we were with the outcomes.
+We believe that the international aid community has just begun to tap the potential of IATI as a
+data source but that improvements are needed to the IATI standard, guidance and governance in
+order to reach the goal of aid transparency.
+We have identified four high-level issues from using IATI COVID-19 data:
+1.
+Barriers to data use: Those who use IATI data, as we attempted to, will always try to do so
+across a range of publishers. There is too much complexity and too many inconsistencies in
+IATI publishing for this to scale.
+2.
+No feedback loops: IATI data users are left to resolve familiar problems time and again, with
+little chance to engage with publishers. The process for improving the IATI standard is unclear
+and slow.
+3.
+Individual focus: IATI publishers focus on their own data which is then expressed in different
+approaches and uses of the IATI standard. There is little dialogue between and among
+organizations to use and improve each other's data. Pockets of collaboration do exist, but have
+been overshadowed by IATI being centered on compliance.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 2 of 17
+
+4.
+The IATI standard is both too rigid and too flexible: All IATI publishers have to put their data
+into an activity which may not translate to the reality of their operations. In working with the
+IATI data, we had to bypass activities to get to the financial flows. At the same time, it is often
+not possible to trace funding between organizations because publishers don’t identify
+counterparties.
+We recommend three high-level actions to improve IATI:
+1.
+The governance of IATI needs to be more open to feedback from data users. The IATI
+Institutional Review, which is currently taking place, should consider ideas around user-led
+governance and feedback.
+2.
+IATI guidance should be updated more often and include examples of best practice and good
+use rather than just instructions or definitions.
+3.
+Rankings and indices for IATI publishers should include performance metrics on collective
+and systematic data use in addition to focusing on the data quality of individual publishers.
+Many of our findings and recommendations are already covered in the IATI Strategic Plan 2020 - 2025
+including a focus on data quality and data use. This report includes a detailed list of recommendations
+and suggested next steps (see Section 3). For each issue, we propose what changes would be most
+beneficial, and equally importantly, how the IATI community might implement them.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 3 of 17
+
+1. Introduction
+The International Aid Transparency Initiative is a global effort to improve the transparency of
+development and humanitarian financing focused on addressing poverty and humanitarian crises.
+More than 1,300 organizations — bilateral and multilateral providers, international and local NGOs,
+civil society organizations, academia, governments, and other stakeholders — publish their data using
+the IATI standard.
+Following the World Health Organization’s declaration of a pandemic in March 2020, the IATI
+secretariat issued guidance on how to publish data on COVID-19 aid activities and financial
+transactions. Organizations were encouraged to add ‘COVID-19’ in additional fields of the IATI standard
+in order to track the response to the pandemic. As of September 2021, over 200 organizations have
+published their COVID-19 funding data using IATI.
+Over the past nine months, the Centre has explored this data to understand the financial
+commitments and actual spending related to the pandemic. As part of this project, we developed an
+IATI COVID-19 Funding Dashboard (updated nightly) with financial transactions from 13,780 reported
+aid activities covering $134.5 billion in commitments and $84.8 billion in spending directed towards
+200 recipient countries and territories.1 We also created a data story which shows several insights from
+the data (as of 15 September).
+This report details our experience using the IATI COVID-19 data to create the dashboard and related
+data story. We explain our goals with the dashboard and the methodology we used to parse and
+visualize the IATI data. The report concludes with a deeper look at the issues we encountered and
+offers recommendations for improving the IATI standard and related guidance.
+The work covered in this project was funded by the United States Agency for International
+Development (USAID). We are grateful for the considerable contribution of USAID colleagues in
+reviewing and providing feedback on our work. We would also like to acknowledge the earlier effort to
+create a prototype visualization to track the COVID-19 response by Development Initiatives which was
+undertaken on behalf of the Grand Bargain Transparency Workstream.2
+2. The IATI COVID-19 Funding Dashboard
+The dashboard was created to visualize, explore and analyze all of the published IATI data related to
+the COVID-19 pandemic. We focused on two main entities in IATI reports: 1) the activity, which may
+represent any unit of aid action (such as a programme, project, or activity); and 2) the transaction,
+which represents a single movement of money (or promise) in or out of the activity (such as a payment
+2 A snapshot of the earlier dashboard, developed by Mark Brough at Development Initiatives, is available at
+https://covid19.humportal.org/activities/ .
+1 All figures according to the dashboard as of 30 September 2021. These figures are updated nightly so will
+change.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 4 of 17
+
+to an implementing partner, or a grant from a donor). (Read more about IATI transaction types in
+Annex A).
+A guiding principle for developing the dashboard has been to ‘hold up a mirror’ to IATI data. Therefore,
+the dashboard presents financial information as reported, without attempting any reconciliation
+among different publishing organizations or verification of those numbers from other sources.
+The dashboard has three target audiences:
+●
+IATI data publishers: people involved in the production and distribution of data formatted to
+the IATI standard.
+●
+IATI data users: people interested in IATI data more widely, either from an analytical or
+transparency perspective.
+●
+COVID-19 funding observers: people interested in the response to the pandemic, but not
+necessarily in IATI itself.
+We designed the dashboard to be open source and reusable, so that — with a certain amount of
+reconfiguration — it can be deployed to track other topics or crises using the IATI standard. (Read more
+about the algorithms and general methodology we used to process IATI data and find links to our
+GitHub repositories in Annex B).
+The dashboard includes four tabs:
+1.
+Commitments and Spending — visualization of money committed and actually spent overall,
+or filtered by organization, sector, or country.
+2.
+Spending Flows — visualization of incoming and outgoing financial flows overall, or by
+organization.
+3.
+Data Story — a link out to funding insights using COVID-19 IATI data.
+4.
+About This Dashboard — detailed information about the dashboard, including sources,
+methodology, and licensing.
+The dashboard allows users to pose questions about COVID-19 aid funding and discover IATI data to
+help answer them, such as: how much money have aid organizations committed to the COVID-19
+response in Haiti?; what sector received the most COVID-19 funding?; or which organizations received
+funding from the African Development Bank? It is also possible to see only humanitarian-flagged
+funding, or to apply strict or loose rules for COVID-19 relevance.
+Despite our best efforts and significant user consultation, use of the dashboard requires some degree
+of domain expertise to explore and understand the data. (See Annex C for more about our stakeholder
+consultations). To reach a broader audience, we produced a data story that provides a curated view of
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 5 of 17
+
+the major insights from the COVID-19 data over a fixed period from January to September 2021,
+including:
+1.
+How quickly IATI publishers began sharing COVID-19-related data.
+2.
+How organization type (e.g. NGO, multilateral, government) is correlated with the frequency of
+IATI publishing.
+3.
+The uneven distribution of gaps between money committed and money actually spent for
+different countries.
+4.
+The major aid sectors targeted with COVID-19-related funding.
+5.
+The distribution of funding for the health sector over time.
+6.
+Gaps in IATI data around organization-to-organization money flows.
+Unlike the dashboard, which updates nightly, the data story is based on a snapshot of data from 15
+September 2021 and will not be updated. However, up-to-date versions of all the data are available for
+download on the Humanitarian Data Exchange (HDX) in the dataset IATI COVID-19-related funding
+data.
+3. Key Findings and Recommendations
+During the course of this project, the Centre has become a significant IATI data user, and we have
+involved many members of our team who had previously had no exposure to the standard. Our
+experience has given us a strong appreciation of the value of the IATI standard and its community of
+publishers. We believe that the international aid community has just begun to tap the potential of IATI
+as a data source.
+We have also had the opportunity to see where the IATI standard, guidance, and community practices
+fall short, making data use unnecessarily difficult, and missing opportunities to provide the
+information that could make international aid more transparent.
+We have identified five issues related to the IATI standard and guidance. For each of these findings, we
+propose what changes would be most beneficial and how the IATI community might implement them.
+Finding 1: False-positive matches for the IATI COVID-19 guidance
+Focus area: IATI guidance
+The IATI secretariat acted with speed to create and publish the IATI COVID-19 Guidance, and IATI
+publishers adopted it quickly, making IATI one of the first useful sources for COVID-19-related aid
+funding.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 6 of 17
+
+In making extensive use of the guidance, however, we have found areas where it introduces
+ambiguities and could potentially result in false-positive matches for COVID-19 funding. For example,
+IATI activity XI-IATI-CWSEC-YNCWG1051 from the Commonwealth Secretariat is entitled “A Resilient
+Blue Commonwealth: Blue Charter” and is not related to the COVID-19 pandemic; however, it does
+include the following text in the project description:
+“Note: The emergence of the Covid-19 pandemic has altered some of the implementation
+plans described above (especially holding in-person Action Group meetings).”
+Following the IATI COVID-19 guidance, this activity counts as a positive match because the string
+‘COVID-19’ appears in the project title or description.
+In our work, we attempted to minimise these false matches by classifying any activity with ‘COVID-19’
+appearing only in the project description (and no other matching indicator) as a ‘loose’ match. As of 28
+September 2021, there were $22.0 billion in commitments and $12.8 billion in spending that met only
+the loose criteria but not other, stricter criteria (differences of 20% and 18% respectively).
+There were pragmatic reasons to keep the guidance flexible, including limited metadata available at
+the transaction level (see Issue 2) and the inability of many publishers to alter their information
+systems quickly to support anything but changes to project titles and descriptions.
+Recommendations:
+●
+Do not use free text in titles or descriptions as a flag in future IATI crisis-specific guidance (or at
+least, limit this to the transaction level).
+●
+Focus future guidance on unambiguous, dedicated metadata elements like tag and
+humanitarian-profile.
+●
+Modify IATI publisher data systems to support more-unambiguous flagging of crises or themes
+in the future.
+Next steps:
+●
+Work with the IATI technical team and secretariat to develop templates and best practices for
+future IATI crisis-/theme-publishing guidance.
+●
+Modify the IATI standard to allow tag and humanitarian-profile at the transaction level (will
+need to start as an extension, as described in Issue 2).
+●
+Inform IATI publishers about changes they can make to their information systems now to
+support crisis- or theme-specific publishing guidance in the future (since such changes can
+take several years to implement).
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 7 of 17
+
+Finding 2: IATI publishers do not share their commitments consistently
+Focus area: IATI guidance
+One of the goals of our work was to show the difference between money committed by aid
+organizations toward the global COVID-19 response, and money actually spent. Unfortunately, IATI
+publishers are not consistent about publishing both commitment and disbursement/expenditure
+transactions.
+For example, we found that WHO published information about $1.2 billion in spending, but no
+commitments at all. That leads to two issues:
+1.
+There is a loss of aid transparency, because it is not possible to determine how fully or quickly
+the WHO has met its initial commitments.
+2.
+There is a decrease in the accuracy of aggregate numbers, because WHO’s spending (without
+corresponding commitments) exaggerates the global progress towards meeting COVID-19
+commitments by $1.2 billion.
+WHO is not unique. We found the same issue with many other publishers, including the Australian
+Government, World Bank Trust Funds, the British Red Cross, and Concern Worldwide.
+Recommendations:
+●
+Whenever possible, IATI publishers should share outgoing commitments as well as spending,
+even if they happen at the same time.
+●
+When total outgoing commitments for an activity differ from spending, that should reflect the
+real-world situation, not simply a lack of reporting.
+●
+The IATI community should discuss whether it is best practice to publish outgoing
+commitments for planned expenses (such as salaries and travel) as well as planned
+disbursements to other organizations, since IATI publishers often fail to distinguish the two
+properly.
+Next steps:
+●
+Update existing IATI guidance and training materials to emphasise the importance of
+publishing outgoing commitment transactions to support aid transparency, including use
+cases for data users.
+●
+Advocate for IATI report cards and dashboards to include publishing outgoing commitments as
+a quality metric.
+●
+Propose an IATI extension or change to the standard to add a ‘no commitment’ flag to
+transactions to identify legitimate exceptions.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 8 of 17
+
+●
+Draw attention to IATI publishers who already follow best practices with commitments as
+models for the rest of the IATI community.
+Finding 3: Splitting IATI transactions by sector and recipient country/region
+Focus area: IATI guidance
+An IATI activity may target multiple sectors and/or recipient regions or countries, and it is often difficult
+to allocate commitments or spending accurately across those different entities. For example, IATI
+activity CA-3-P009467001 published by Global Affairs Canada (GAC) reports funding for agricultural
+interventions in response to COVID-19. The programme targets eight regions and five sectors, with a
+percentage value assigned to each.3
+When GAC reported an outgoing commitment transaction of CA $6,000,000 to the International Fund
+for Agricultural Development (IFAD), dividing the commitment by sector and region at the same time
+produces totals that are overly specific and unlikely to be accurate, for example $48,000 committed to
+Agricultural policy and administrative management in the Middle East (10% of 8% of $6 million).
+In this case, GAC reported only one commitment and one spending transaction for the activity, but in
+many cases, IATI publishers provide default splits at the activity level when there are multiple
+transactions of each type, further adding to the allocation difficulties. For example, if GAC had made
+commitments to 3 different aid organizations, it would have been unlikely that 0.8% of each
+commitment would apply to Agricultural policy and administrative management in the Middle East.
+Recommendations:
+●
+If feasible, large IATI publishers (like government donors) should break programmes down into
+smaller, more geographically-targeted units by region or country, to improve aid transparency
+in general. Doing so would also improve the ability of donors to meet their Grand Bargain
+localisation commitments, by having programmes that a single local or national actor could
+apply to implement.
+●
+When an activity contains more than one transaction of the same type, IATI publishers should
+include sector and recipient country/region information at the transaction level rather than
+the activity level, to make it easier to determine how much money is going to specific sectors
+or geographical areas.
+3 The regions are South of Sahara (70%); South & Central Asia (9%); Middle East (8%); Far East Asia (5%); North &
+Central America (2.5%); Oceania (2.5%); West Indies (2%), and South America (1%). The sectors are Agricultural
+inputs (25%); Agricultural services (25%); Agricultural financial services (25%); Agricultural development (15%);
+and Agricultural policy and administrative management (10%).
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 9 of 17
+
+Next steps:
+●
+Through the IATI Data Use Working Group, publish and circulate a guidance document on
+processing IATI transactions by sector and recipient country/region to establish common best
+practices, then propose that the IATI secretariat adopt it as official IATI guidance.
+●
+Advocate for IATI report cards and dashboards to add transaction-level metadata about
+sectors and recipient countries/regions as a data-quality metric.
+●
+Recruit two major publishers as peer advocates to model best practices and two major data
+users as advocates to demonstrate need.
+Finding 4: Lack of information about transaction counterparties
+Focus area: IATI guidance
+With the exception of expenses, the IATI transaction types we considered all involve a counterparty (a
+provider organization for incoming commitments or funding, and a receiver organization for outgoing
+commitments or disbursements). IATI allows specifying each counterparty in up to three ways:
+●
+by name (e.g. “UNHCR”);
+●
+by organization identifier (e.g. “XM-DAC-41121”); and/or
+●
+by organization type (e.g. “40” for Multilateral).
+Including this information in transactions4 is critical for aid transparency, and particularly for
+traceability — the ability to track aid funding from its source to an actual aid activity in the field.
+In the Spending Flows tab of our dashboard, we were able to show the counterparties as named by
+each individual organization, but in most cases, we were unable to connect them, and could not
+reliably include information about an organization provided by third parties. IATI publishers rarely use
+organization identifiers in transactions (there are often none available for them to use), don’t specify
+the organization type, and use wildly inconsistent naming conventions.
+For example, in a recent selection of IATI activities targeting Somalia, all of the following spelling
+variants appear for the same organization: “UNHCR”, "UNHCR/United Nations High Commissioner for
+Refugees", "UNITED NATIONS HIGH COMMISSIONER FOR REFUGEES", "UNO Flüchtlingshilfe", "United
+Nations High Commissioner for Refugees", "United Nations High Commissioner for Refugees
+(UNHCR)", and "United Nations Office of the United Nations High Commissioner for Refugees".
+Even that inconsistency is better than the other common case, where IATI publishers do not name their
+counterparties at all, especially when they are local or national organizations.
+4 IATI also allows using defaults from the participating organizations specified at the activity level when a
+transaction does not specify a provider or receiver organization.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 10 of 17
+
+Recommendations:
+●
+Include the provider or receiver organizations (as appropriate) for each applicable transaction,
+except where there is a serious security concern or other sensitivity.
+●
+List all participating organizations, including upstream funding organizations and downstream
+implementing partners, for each activity, except where there is a serious security concern or
+other sensitivity.
+●
+Name organizations as completely as possible (e.g. “Kenya Ministry of Health”, not just “MoH”).
+●
+Use organization identifiers whenever available.
+●
+Always include the organization type from the IATI Organization Type Codelist (e.g. code 24 for
+a local or national NGO), even when the organization name and identifier are redacted for
+security reasons.
+Next steps:
+●
+Work with the IATI secretariat to update traceability guidance to emphasise the importance of
+including information about transaction counterparties, and when/how to redact information
+when necessary.
+●
+Improve the infrastructure for discovering organization identifiers and for creating or
+requesting new identifiers for those organizations that do not already have one.
+●
+Leverage the Grand Bargain Localisation Workstream as an incentive for IATI publishers to
+name partners more consistently (it is impossible to track localisation progress with IATI
+unless publishers share their partners).
+●
+Identify IATI publishers who are already following best practices for traceability (e.g. Oxfam
+Novib, Cordaid) and share them as models for other publishers to follow.
+Finding 5: Limited metadata at the IATI transaction level
+Focus area: IATI standard
+The IATI standard allows extensive metadata at the activity level — serving as a default for all
+transactions — but it allows much less metadata for individual transactions within an activity. For
+example, there is no way to associate a specific transaction with a global humanitarian crisis, a
+humanitarian response plan, or even a free-form IATI subject tag.
+Since all of those were part of the IATI COVID-19 guidance, the result was that publishers did not have a
+convenient way to associate a single transaction within a large activity with the global COVID-19
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 11 of 17
+
+response, other than by using ‘COVID-19’ in the transaction description text,5 and there was likely
+significant overcounting of COVID-19 funding when only a small part of the spending in a large activity
+applied to the crisis.
+Examples of other metadata that could be useful at the transaction level includes the original currency
+and exchange rate, and direct relationships with transactions in other activities.
+Recommendations:
+●
+Allow the inclusion of more metadata at the IATI transaction level, including tags and
+humanitarian profiles.
+Next steps:
+●
+Since IATI standard development is slow, begin by developing, documenting, and propagating
+an IATI extension6 that adds a collection of useful metadata at the transaction level.
+●
+Create an IATI extension registry to raise visibility and avoid duplicate work.
+●
+Recruit two major IATI publishers to use the extension, to add credibility.
+●
+Advocate for two key IATI data users (such as d-portal) to take advantage of the extension, to
+demonstrate its value.
+●
+Once the extension is in use, present it as evidence to advocate for an official change to the
+IATI standard to support better transaction-level metadata.
+4. Conclusion
+The unprecedented scale of the COVID-19 pandemic shows why a global, multi-stakeholder data
+standard is needed. Our work to create the dashboard and data story about COVID-19 funding would
+not have been possible without the IATI standard and the hard work of its publishers. The Centre looks
+forward to collaborating with the IATI community to make improvements to the standard and related
+guidance so that valuable insights about aid activities are easier to generate and enable quicker
+decisions.
+We are especially grateful to the many stakeholders who provided input and feedback over the course
+of this project. We would also like to acknowledge the guidance and support we received from the
+United States Agency for International Development.
+6 An IATI extension is a collection of additional markup that publishers can add to their IATI reports, using an XML
+Namespace to distinguish it from the primary IATI markup to avoid conflict or incompatibilities.
+5 Or later in the pandemic, via the use of a dubious OECD-DAC sector code for a COVID-19 pseudo-sector, which
+further confuses the sector breakdowns described in Finding #1.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 12 of 17
+
+Annex A: IATI Transaction Types
+The IATI transaction types that we were interested in for this project were incoming commitments
+(promises to pay money into an activity), incoming funding (actuals transfers of money into an
+activity), outgoing commitments (promises to pay money out of an activity), disbursements (actual
+transfers of money out an activity), and expenses (operating costs paid directly by the activity).
+Typically, transactions come from or go to a different aid organization than the one reporting the
+activity, but that is not always the case.
+Because IATI publishers do not consistently distinguish between disbursements and expenses, we
+combine them in the dashboard and data story into a single pseudo-transaction type “spending.”
+Each activity contains zero or more transactions. Many types of metadata, such as the target sectors or
+recipient countries, may appear at either the activity or the transaction level.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 13 of 17
+
+Annex B: Methodology Highlights
+This section describes the algorithms and general methodology we used to process IATI data to
+produce aggregate figures, and will be of interest primarily to software developers,
+information-management specialists, and financial professionals.
+The Centre shares all of the source code for this dashboard as open source software. Data is extracted
+from d-portal.org and transformed every 24 hours.
+For more information, view our public GitHub repositories:
+●
+Data processing scripts
+●
+Prepared data (automatically updated every 24 hours)
+○
+Activities and transactions — transactions.csv | transactions.json
+○
+Financial flows — flows.csv | flows.json
+●
+Data visualization front end
+●
+Data story source code
+This section contains highlights only. For a full description of our processing methodology, see the
+dashboard’s About page):
+●
+Data preparation: We run GitHub actions daily to extract IATI data from the D-Portal service,
+transform it into CSV- and JSON-formatted reports, and then store it in GitHub Pages,
+accessible over the Web.
+●
+Date limit: We include only outgoing financial transactions (types 3 or 4) dated after
+2020-01-01, to ensure relevance to the pandemic.
+●
+Currency: Unless they are already denominated in US dollars (USD), the dashboard converts
+all transaction values to USD before performing any other operations.
+●
+Relevance: We follow the IATI COVID-19 Guidance for IATI Publishers and later additions to the
+OECD-DAC sector codes, and flag all matches as strictly-relevant, with the following
+exceptions:
+○
+If the string “COVID-19” appears only in the activity description, and the activity or
+transaction meets none of the other IATI guidance, we flag it only as loosely-relevant.
+○
+If the string “COVID” or “CORONAVIRUS” appears in the activity title or in the activity or
+transaction description, we also flag it as loosely relevant.
+●
+Spending: The dashboard does not make a distinction between disbursement and expense
+transactions (types 3 or 4 in the IATI Transaction Type Codelist), but treat both as “spending”
+for the sake of this dashboard.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 14 of 17
+
+●
+Sector simplification: We have simplified the sectors, rolling them up to the top-level
+OECD-DAC sector groups, to make the aggregated totals more usable.
+●
+Allocation to sectors and recipient countries: If an activity lists multiple sectors and/or
+recipient countries, the dashboard divides each transaction by the percentages given for both.
+The sectors and recipient countries for the transaction are used if provided at the transaction
+level, and otherwise the dashboard defaults to those used at the activity level.
+●
+Deduplication: we subtract the larger of incoming commitments or incoming spending from
+outgoing commitments and from outgoing spending to determine the net new commitments
+and net new spending that an activity contributes to a sector, recipient country, or the overall
+response. We do not perform deduplication when showing results only for a single
+organization.
+●
+Internal transactions: in the flows tab, we exclude internal transactions (where the provider
+and receiver organization are the same) whenever we are able to detect them.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 15 of 17
+
+Annex C: Stakeholder Consultations
+The Centre conducted two rounds of stakeholder consultations, one before and one after the technical
+implementation of the IATI COVID-19 Funding Dashboard.
+The first round of consultations, in late 2020, involved interviews with seven IATI stakeholders.7 The
+main focus was on the earlier version of the dashboard and the extent to which it met the
+organizations’ needs. From those discussions, the following key points emerged:
+●
+A tool like this was important for donors and other aid organizations to understand the wider
+context of the COVID-19 financial response and the quality/usefulness of IATI data sharing.
+●
+Key headline figures (like the total funding to date) are valuable.
+●
+Users are most interested in looking at their own data first.
+●
+The presentation of financial flows between organizations was valuable.
+●
+IATI-specific terminology alienated many users.
+●
+Users were disappointed at the lack of time-series data (in the context of an ongoing
+pandemic).
+●
+There was little user retention: once users visited the dashboard once, they were unlikely to
+return.
+In response to these findings, we made several changes to the dashboard:
+1.
+We used only information from IATI publishers, so that all the data came from the same
+ecosystem, and we would be able to “hold up a mirror” to IATI data.
+2.
+We simplified options for filtering and displaying data, and added pop-up help.
+3.
+We removed most of the IATI-specific terminology and replaced it with
+more-broadly-accessible language.
+4.
+We simplified pages to reduce the need for scrolling.
+5.
+We preserved the ability of the original dashboard to bookmark specific data views, so that
+(for example) a user could bookmark their own data and come back to it later to see how it had
+changed.
+7 The stakeholders interviewed in the first round were Development Initiatives (DI), the Directorate-General for
+European Civil Protection and Aid Operations (DG-ECHO), the International Rescue Committee (IRC), the
+Netherlands Ministry of Foreign Affairs (NL-MFA), the United States Agency for International Development
+(USAID), the UN Refugee Agency (UNHCR), and the World Health Organization (WHO).
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 16 of 17
+
+The second round of consultations, in the second quarter of 2021, involved five IATI stakeholders,
+some of whom were also in the first round.8 The main focus areas were demonstrating the updated
+version of the dashboard, soliciting feedback, and providing recommendations for each organization’s
+own IATI publishing based on our findings. The following key points emerged from the second round:
+●
+Stakeholders considered the dashboard useful, and could see ways to integrate it into their
+own planning and operations:
+○
+“Eye opening, now I can go back and ask for extra capacity to make it so we can actually
+publish transactions.”
+○
+“Our direct expenditure is remarkably large. That goes contrary to everything about local
+humanitarian leadership.”
+●
+Simplifying the content (reduced scrolling) and using only IATI data significantly improved
+usability.
+●
+Some users were able to find errors in their own IATI reporting quickly, in a way that they had
+not easily been able to do before.
+●
+The new timeline chart was popular.
+●
+The “quick filters” shortcuts that we added to help users get quick results were little used.
+●
+The summary “doughnut charts” that we introduced caused confusion.
+●
+While significantly simpler, the logic of results filtering was still not clear to all users.9
+●
+Desire to see commitments as well as spending on the flows tab.
+It was not possible to do a further major redesign after the second round of consultations, but we did
+make some improvements and recorded the feedback (positive and negative) to help us improve the
+usability of future dashboards, including possible later versions of this one for other crises and
+themes.
+9 It is possible that presenting users with a set of filters is never a good user experience for people who are not
+information-management specialists, no matter how a site presents them. This area deserves more
+user-experience research.
+8 The stakeholders interviewed in the second round were the Danish Refugee Council (DRC), NL-MFA, Oxfam
+Novib, UNHCR, and WHO.
+The Centre for Humanitarian Data | Join our mailing list | Twitter: @humdata | Email: centrehumdata@un.org
+Page 17 of 17

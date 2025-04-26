@@ -1,0 +1,1515 @@
+us
+200
+400
+600
+800
+1000
+1200
+1400
+1
+10
+2
+10
+3
+10
+FirstDSM -> LastDSM (including BTOW & ETOW if in run)  (Run 16167101)
+Entries 
+ 10000
+Mean  
+  201.2
+RMS   
+  109.7
+FirstDSM -> LastDSM (including BTOW & ETOW if in run)  (Run 16167101)
+us
+10
+20
+30
+40
+50
+1
+10
+2
+10
+3
+10
+4
+10
+lastDSM -> trg
+Entries 
+ 10000
+Mean  
+  5.316
+RMS   
+  2.371
+lastDSM -> trg
+
+us
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+1
+10
+2
+10
+3
+10
+4
+10
+L2 algorithm time (Total) (trg -> evtacc)
+Entries 
+ 10000
+Mean  
+   5.23
+RMS   
+ 0.9513
+L2 algorithm time (Total) (trg -> evtacc)
+us
+10
+15
+20
+25
+30
+35
+40
+45
+1
+10
+2
+10
+3
+10
+Accept or Abort (evtacc -> accsent)
+Entries 
+ 10000
+Mean  
+  12.66
+RMS   
+  2.545
+Accept or Abort (evtacc -> accsent)
+
+us
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+1
+10
+2
+10
+3
+10
+Release (accsent -> relsent)
+Entries 
+ 10000
+Mean  
+  2.409
+RMS   
+  1.918
+Release (accsent -> relsent)
+percent of run
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+Hz
+0
+500
+1000
+1500
+2000
+2500
+3000
+input rate
+input rate
+
+us
+200
+400
+600
+800
+1000
+1200
+1400
+1
+10
+2
+10
+3
+10
+firstDSM->accept (or abort) sent
+Entries 
+ 10000
+Mean  
+  227.2
+RMS   
+  110.9
+firstDSM->accept (or abort) sent
+us
+20
+30
+40
+50
+60
+70
+80
+1
+10
+2
+10
+3
+10
+lastDSM -> accept (or abort)  (L2 processing time)
+Entries 
+ 10000
+Mean  
+     25
+RMS   
+  3.566
+lastDSM -> accept (or abort)  (L2 processing time)
+
+us
+-1000-800 -600 -400 -200
+0
+200
+1
+10
+2
+10
+3
+10
+4
+10
+BBC times (relative to L1)
+Entries 
+ 10000
+Mean  
+  8.713
+RMS   
+  25.57
+BBC times (relative to L1)
+us
+-1000-800 -600 -400 -200
+0
+200
+1
+10
+2
+10
+3
+10
+4
+10
+BC1 times (relative to L1)
+Entries 
+ 10000
+Mean  
+  45.98
+RMS   
+  29.13
+BC1 times (relative to L1)
+us
+-1000-800 -600 -400 -200
+0
+200
+1
+10
+2
+10
+3
+10
+4
+10
+BCE times (relative to L1)
+Entries 
+ 10000
+Mean  
+  34.74
+RMS   
+  28.87
+BCE times (relative to L1)
+us
+-1000-800 -600 -400 -200
+0
+200
+1
+10
+2
+10
+3
+10
+4
+10
+BCW times (relative to L1)
+Entries 
+ 10000
+Mean  
+   53.4
+RMS   
+  29.95
+BCW times (relative to L1)
+
+us
+-1000
+-500
+0
+500
+1000
+1500
+1
+10
+2
+10
+3
+10
+BBQ times (relative to L1)
+Entries 
+ 10000
+Mean  
+  149.3
+RMS   
+  103.8
+BBQ times (relative to L1)
+us
+-1000-800-600-400-200 0 200400600800
+1
+10
+2
+10
+3
+10
+FMS times (relative to L1)
+Entries 
+ 10000
+Mean  
+  70.54
+RMS   
+  109.1
+FMS times (relative to L1)
+us
+-1000-800 -600 -400 -200
+0
+200
+1
+10
+2
+10
+3
+10
+4
+10
+MIX times (relative to L1)
+Entries 
+ 10000
+Mean  
+   21.6
+RMS   
+  26.86
+MIX times (relative to L1)
+us
+-1400-1200-1000-800 -600 -400 -200
+0
+1
+10
+2
+10
+3
+10
+L1 times (relative to lastDSMin)
+Entries 
+ 10000
+Mean  
+   -188
+RMS   
+  108.2
+L1 times (relative to lastDSMin)
+
+us
+-1000
+-500
+0
+500
+1000
+1
+10
+2
+10
+3
+10
+QT1 times (relative to L1)
+Entries 
+ 10000
+Mean  
+  101.4
+RMS   
+  112.5
+QT1 times (relative to L1)
+us
+-1000
+-500
+0
+500
+1000
+1
+10
+2
+10
+3
+10
+QT2 times (relative to L1)
+Entries 
+ 10000
+Mean  
+  118.7
+RMS   
+  113.1
+QT2 times (relative to L1)
+us
+-1000
+-500
+0
+500
+1000
+1
+10
+2
+10
+3
+10
+QT3 times (relative to L1)
+Entries 
+ 10000
+Mean  
+  120.4
+RMS   
+    113
+QT3 times (relative to L1)
+us
+-1000
+-500
+0
+500
+1000
+1
+10
+2
+10
+3
+10
+QT4 times (relative to L1)
+Entries 
+ 10000
+Mean  
+  105.1
+RMS   
+  112.2
+QT4 times (relative to L1)
+
+us
+-1000
+-500
+0
+500
+1000
+1
+10
+2
+10
+3
+10
+4
+10
+MXQ times (relative to L1)
+Entries 
+ 10000
+Mean  
+  80.61
+RMS   
+  58.28
+MXQ times (relative to L1)
+us
+1010.00001
+10.00002
+10.00003
+10.00004
+10.00005
+10.00006
+10.00007
+10.00008
+10.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+FEQ times (relative to L1)
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+FEQ times (relative to L1)
+
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+BTOW arrival (relative to L1)
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+BTOW arrival (relative to L1)
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+ETOW arrival (relative to L1)
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+ETOW arrival (relative to L1)
+
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+BTOW arrival (relative to firstDSM)
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+BTOW arrival (relative to firstDSM)
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+ETOW arrival (relative to firstDSM)
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+ETOW arrival (relative to firstDSM)
+
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+BTOW compute done (relative to firstDSM)
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+BTOW compute done (relative to firstDSM)
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+ETOW compute done (relative to firstDSM)
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+ETOW compute done (relative to firstDSM)
+
+us
+-1
+-0.5
+0
+0.5
+1
+10
+2
+10
+3
+10
+4
+10
+BTOW calibrate time
+Entries 
+ 10000
+Mean  
+      0
+RMS   
+      0
+BTOW calibrate time
+us
+-1
+-0.5
+0
+0.5
+1
+10
+2
+10
+3
+10
+4
+10
+ETOW calibrate time
+Entries 
+ 10000
+Mean  
+      0
+RMS   
+      0
+ETOW calibrate time
+
+us
+-1
+-0.5
+0
+0.5
+1
+10
+2
+10
+3
+10
+4
+10
+BTOW calibrate time
+Entries 
+ 10000
+Mean  
+      0
+RMS   
+      0
+BTOW calibrate time
+us
+-1
+-0.5
+0
+0.5
+1
+10
+2
+10
+3
+10
+4
+10
+BTOW compute time
+Entries 
+ 10000
+Mean  
+      0
+RMS   
+      0
+BTOW compute time
+
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+BTOW (Last DSM - Compute Done) times cut at 300us
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+BTOW (Last DSM - Compute Done) times cut at 300us
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+ETOW (Last DSM - Compute Done) times cut at 300us
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+ETOW (Last DSM - Compute Done) times cut at 300us
+
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+BTOW (Last DSM - Compute Done) Full timescale
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+BTOW (Last DSM - Compute Done) Full timescale
+us
+10
+10.0000110.0000210.0000310.0000410.0000510.0000610.0000710.0000810.00009
+6
+10
+×
+-2
+10
+-1
+10
+1
+10
+ETOW (Last DSM - Compute Done) Full timescale
+Entries 
+ 0
+Mean  
+      0
+RMS   
+      0
+ETOW (Last DSM - Compute Done) Full timescale
+
+-1
+-0.5
+0
+0.5
+1
+10
+2
+10
+3
+10
+4
+10
+L1 Time 1
+Entries 
+ 10000
+Mean  
+      0
+RMS   
+      0
+L1 Time 1
+us
+-1
+-0.5
+0
+0.5
+1
+10
+2
+10
+3
+10
+4
+10
+L1 Time 2
+Entries 
+ 10000
+Mean  
+      0
+RMS   
+      0
+L1 Time 2
+us
+-1
+-0.5
+0
+0.5
+1
+10
+2
+10
+3
+10
+4
+10
+L1 Time 3
+Entries 
+ 10000
+Mean  
+      0
+RMS   
+      0
+L1 Time 3
+
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+-3
+10
+-2
+10
+-1
+10
+1
+alg1
+Entries 
+ 2
+Mean  
+      2
+RMS   
+      1
+alg1
+us
+0
+1
+2
+3
+4
+5
+6
+7
+-3
+10
+-2
+10
+-1
+10
+1
+alg2
+Entries 
+ 2
+Mean  
+    4.5
+RMS   
+    1.5
+alg2
+us
+0 0.2 0.4 0.6 0.8
+1 1.2 1.4 1.6 1.8
+2
+1
+10
+2
+10
+alg3
+Entries 
+ 457
+Mean  
+      1
+RMS   
+      0
+alg3
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+-2
+10
+-1
+10
+1
+alg4
+Entries 
+ 3
+Mean  
+      2
+RMS   
+      0
+alg4
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+-3
+10
+-2
+10
+-1
+10
+1
+alg5
+Entries 
+ 1
+Mean  
+      2
+RMS   
+      0
+alg5
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+-3
+10
+-2
+10
+-1
+10
+1
+alg6
+Entries 
+ 1
+Mean  
+      3
+RMS   
+      0
+alg6
+us
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+1
+alg7
+Entries 
+ 5
+Mean  
+    5.6
+RMS   
+  5.643
+alg7
+us
+0 0.2 0.4 0.6 0.8
+1 1.2 1.4 1.6 1.8
+2
+1
+10
+2
+10
+alg8
+Entries 
+ 431
+Mean  
+      1
+RMS   
+      0
+alg8
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+-3
+10
+-2
+10
+-1
+10
+1
+alg9
+Entries 
+ 1
+Mean  
+      2
+RMS   
+      0
+alg9
+us
+0 0.2 0.4 0.6 0.8
+1 1.2 1.4 1.6 1.8
+2
+1
+10
+2
+10
+alg10
+Entries 
+ 478
+Mean  
+      1
+RMS   
+      0
+alg10
+us
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-3
+10
+-2
+10
+-1
+10
+1
+alg11
+Entries 
+ 3
+Mean  
+      4
+RMS   
+  2.944
+alg11
+us
+0
+1
+2
+3
+4
+5
+6
+7
+-3
+10
+-2
+10
+-1
+10
+1
+alg12
+Entries 
+ 1
+Mean  
+      6
+RMS   
+      0
+alg12
+us
+0 0.2 0.4 0.6 0.8
+1 1.2 1.4 1.6 1.8
+2
+1
+10
+2
+10
+alg13
+Entries 
+ 426
+Mean  
+      1
+RMS   
+      0
+alg13
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+-3
+10
+-2
+10
+-1
+10
+1
+alg14
+Entries 
+ 2
+Mean  
+      2
+RMS   
+      1
+alg14
+us
+0
+2
+4
+6
+8
+10 12 14 16 18 20
+1
+alg15
+Entries 
+ 4
+Mean  
+    5.5
+RMS   
+  7.228
+alg15
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+-3
+10
+-2
+10
+-1
+10
+1
+alg16
+Entries 
+ 1
+Mean  
+      2
+RMS   
+      0
+alg16
+
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+-3
+10
+-2
+10
+-1
+10
+1
+alg17
+Entries 
+ 2
+Mean  
+      2
+RMS   
+      0
+alg17
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+-3
+10
+-2
+10
+-1
+10
+1
+alg18
+Entries 
+ 1
+Mean  
+      2
+RMS   
+      0
+alg18
+us
+0
+1
+2
+3
+4
+5
+6
+7
+8
+-3
+10
+-2
+10
+-1
+10
+1
+alg19
+Entries 
+ 1
+Mean  
+      7
+RMS   
+      0
+alg19
+us
+0 0.2 0.4 0.6 0.8
+1 1.2 1.4 1.6 1.8
+2
+1
+10
+2
+10
+alg20
+Entries 
+ 444
+Mean  
+      1
+RMS   
+      0
+alg20
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+-3
+10
+-2
+10
+-1
+10
+1
+alg21
+Entries 
+ 2
+Mean  
+      3
+RMS   
+      0
+alg21
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+-3
+10
+-2
+10
+-1
+10
+1
+alg22
+Entries 
+ 1
+Mean  
+      2
+RMS   
+      0
+alg22
+us
+0
+1
+2
+3
+4
+5
+6
+7
+-3
+10
+-2
+10
+-1
+10
+1
+alg23
+Entries 
+ 2
+Mean  
+      4
+RMS   
+      2
+alg23
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+-3
+10
+-2
+10
+-1
+10
+1
+alg24
+Entries 
+ 2
+Mean  
+      2
+RMS   
+      0
+alg24
+us
+0 0.2 0.4 0.6 0.8
+1 1.2 1.4 1.6 1.8
+2
+1
+10
+2
+10
+alg25
+Entries 
+ 424
+Mean  
+      1
+RMS   
+      0
+alg25
+us
+0 0.2 0.4 0.6 0.8
+1 1.2 1.4 1.6 1.8
+2
+1
+10
+2
+10
+alg26
+Entries 
+ 419
+Mean  
+      1
+RMS   
+      0
+alg26
+us
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+-3
+10
+-2
+10
+-1
+10
+1
+alg27
+Entries 
+ 1
+Mean  
+      8
+RMS   
+      0
+alg27
+us
+0 0.5
+1 1.5
+2 2.5
+3 3.5
+4 4.5
+5
+-3
+10
+-2
+10
+-1
+10
+1
+alg28
+Entries 
+ 2
+Mean  
+      4
+RMS   
+      0
+alg28
+us
+0 0.2 0.4 0.6 0.8
+1 1.2 1.4 1.6 1.8
+2
+1
+10
+2
+10
+alg29
+Entries 
+ 456
+Mean  
+      1
+RMS   
+      0
+alg29
+us
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+-3
+10
+-2
+10
+-1
+10
+1
+alg30
+Entries 
+ 2
+Mean  
+      2
+RMS   
+      1
+alg30
+us
+0 0.2 0.4 0.6 0.8
+1 1.2 1.4 1.6 1.8
+2
+1
+10
+2
+10
+alg31
+Entries 
+ 467
+Mean  
+      1
+RMS   
+      0
+alg31
+us
+0
+2
+4
+6
+8
+10
+12
+14
+-3
+10
+-2
+10
+-1
+10
+1
+alg32
+Entries 
+ 3
+Mean  
+  5.333
+RMS   
+  5.437
+alg32

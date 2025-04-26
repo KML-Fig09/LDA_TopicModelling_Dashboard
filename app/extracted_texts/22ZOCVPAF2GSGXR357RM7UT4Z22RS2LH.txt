@@ -1,0 +1,23 @@
+7
+92-93
+93-94
+94-95
+95-96
+96-97
+97-98
+98-99
+99-00
+00-01
+01-02
+231,668
+236,774 240,448 243,097 245,252 244,403 244,623 245,142 245,694 246,405
+0
+50,000
+100,000
+150,000
+200,000
+250,000
+Idaho Public School 
+Fall Membership
+Fall enrollment as of the last Friday in September
+Fall enrollment as of the first Friday in November

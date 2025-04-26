@@ -1,0 +1,23 @@
+Summary US vs. Foreign by Program and Vessel Type
+for
+11/20/2007 12:16:51 PM
+10/1/2002
+9/30/2003
+through
+BULK/TUG/BARGE
+Prog
+Total 
+Metric Tons
+US 
+Metric Tons
+Foreign 
+Metric Tons
+%US
+%FR
+/Country
+Total OFR
+US OFR
+Foreign OFR
+%US
+%FR
+1

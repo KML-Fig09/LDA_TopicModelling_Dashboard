@@ -1,0 +1,811 @@
+ONTARIO INTL
+AIRPORT
+CABLE
+FIELD
+RIALTO 
+AIRPORT
+63rd District
+59th District
+62nd District
+61st District
+66th District
+71st District
+SIERRA AVE
+CITRUS AVE
+4TH ST
+CHERRY AVE
+SLOVER AVE
+VALLEY BLVD
+ARCHIBALD AVE
+LYTLE CREEK RD
+JURUPA ST
+BANYAN ST
+JURUPA AVE
+E 4TH ST
+ALDER AVE
+SAN BERNARDINO AVE
+EAST AVE
+N EUCLID AVE
+E HOLT BLVD
+W ARROW HWY
+MERRILL AVE
+W 8TH ST
+E PHILADELPHIA ST
+SUMMIT AVE
+GLEN HELEN
+PKWY
+WILSON AVE
+SAPPHIRE ST
+FONTANA AVE
+S MILLIKEN AVE
+W HOLT BLVD
+W PHILLIPS ST
+N VINEYARD AVE
+W 16TH ST
+W MISSION BLVD
+ARMSTRONG RD
+S ARCHIBALD AVE
+DEVORE RD
+KENWOOD AVE
+ILEX ST
+W 25TH ST
+W BASE LINE RD
+MULBERRY AVE
+W COAST BLVD
+S CENTRAL AVE
+ALMOND ST
+SHINN RD
+BOHNERT AVE
+N HAVEN AVE
+TURQUOISE AVE
+MOUNTAIN LN
+W RIALTO AVE
+ALDER ST
+LOCUST AVE
+ONTARIO AIRPORT
+AIR GUARD STA
+S a n  B e r n a r d i n o  N a t i o n a l  F o r e s t
+A n g e l e s  N a t i o n a l  F o r e s t
+San Bernardino National Forest
+Ontario
+Fontana
+Upland
+Rancho Cucamonga
+Rialto
+Chino
+Glen Avon
+Bloomington
+San Antonio Heights
+Sunnyslope
+GLEN HELEN
+REG PARK
+JURUPA
+PARK
+CUCAMONGA
+GUASTI
+REG PARK
+SOUTHRIDGE
+PARK
+VETERANS
+MEM
+PARK
+JUNIPER
+PARK
+NORTH
+HERITAGE
+PARK
+VILLAGE
+PARK
+CYPRESS
+PARK
+CREEKSIDE
+LAKE
+MILLER
+PARK
+WINDROWS
+PARK
+CATAWBA
+PARK
+SHADOW
+PARK
+SEVILLE
+PARK
+OAK PARK
+NORTH
+TAMARIND
+PARK
+CIRCLE
+PARK
+JUNIPER
+PARK
+30
+30
+30
+60
+60
+83
+83
+10
+10
+10
+15
+15
+66
+66
+S Etiwanda Ave
+San Bernardino Ave
+N Etiwanda Ave
+Arrow Rte
+N Riverside Ave
+Whittram Ave
+Highland Ave
+Sierra Ave
+Beech Ave
+Foothill Blvd
+Douglas Ave
+Philadelphia St
+0
+1
+2
+Miles
+Assembly District 62
+West Part
+Map 1 of 3
+Riverside
+San Diego
+San Bernardino
+M E X I C O
+Orange
+80
+65
+66
+34
+64
+73
+75
+74
+70
+76
+54
+67
+Imperial
+Los Angeles
+77
+59
+71
+36
+63
+60
+79
+38
+62
+78
+61
+44
+72
+57
+43
+55
+56
+68
+49
+53
+69
+42
+P a c i
+f
+i
+c
+O c
+e a
+n
+Mapped
+Area
+Legend
+Assembly Boundary
+State Boundary
+County Boundary
+City Boundary
+Major Highway
+Other Highway
+Other Road
+Railroad
+Outside District
+Major Landmarks
+Institutions
+
+ST BERNARDINE
+MED. CNTR.
+PACIFIC
+H.S.
+MOUNTAIN VIEW
+CEMETERY
+PIONEER MEMORIAL
+CEM
+SAN BERNARDINO
+H.S.
+SAN BERNARDINO
+COMM. HOSP.
+ARROWHEAD
+CC
+EL RANCHO
+VERDE GC
+SHANDIN
+HILS GC
+CAL STATE UNIV
+SAN BERNARDINO
+Norton Air
+Force Base
+SAN BERNARDINO
+COUNTY HOSP
+WILDWOOD
+PARK
+LAKE GREGORY
+REG PARK
+PERRIS HILL
+PARK
+BLAIR
+PARK
+FRISBIE
+PARK
+NUNEZ
+PARK
+SECCOMBE
+LAKE REC AREA
+ENCANTO
+PARK
+DEL VALLEJO
+PARK
+SWITZER
+PARK
+HUDSON
+PARK
+GUTIERREZ
+PARK
+San Manuel
+Reservation
+San Bernardino National Forest
+National Forest
+San Bernardino National Forest
+SAN BERNARDINO
+INTERNATIONAL
+AIRPORT
+San Bernardino
+Highland
+Rialto
+Crestline
+Muscoy
+Lake Arrowhead
+W Kendall Dr
+40 ST
+N California St
+Pacific St
+Alabama St
+Cable Creek Channel
+W 27th St
+June St
+Golondrina Dr
+N Flores St
+W 26th
+St     
+N Medical
+Center Dr
+Lytle Cajon
+Creek
+19th St
+Roberts St
+June Pl
+Court St
+N Elmwood Rd
+Alamo St
+N Madison St
+Baseline St
+Pasito St
+Leslie St
+Del
+Rosa
+Dr
+Cajon Blvd
+Cypress St
+Monte
+Vista Dr  
+Warm Creek
+Tippecanoe Ave
+Lincoln Dr
+Muscupiabe Dr
+59th District
+62nd District
+63rd District
+5TH ST
+3RD ST
+N E ST
+N H ST
+N SIERRA WAY
+STERLING AVE
+N STATE ST
+VICTORIA AVE
+RIALTO AVE
+ROSA        AVE
+HARRISON    ST
+VALENCIA AVE
+W HIGHLAND AVE
+N WATERMAN AVE
+E RIALTO AVE
+6TH ST
+30TH ST
+5TH ST
+PEPPER AVE
+ARDEN AVE
+13TH ST
+WATER DR
+W 27TH ST
+UNIVERSITY PKWY
+4TH ST
+N ARROWHEAD AVE
+N MOUNTAIN VIEW   AVE
+CHURCH AVE
+MUSCOTT  ST
+BELMONT AVE
+PINE AVE
+FOOTHILL DR
+2ND ST
+ORANGE ST
+G ST
+BASELINE RD
+3RD ST
+E
+MOUNT 
+VERNON AVE
+RIVERSIDE AVE
+215
+215
+30
+18
+138
+18
+173
+30
+30
+330
+189
+18
+MANZA
+NITA D
+R
+L
+A
+K
+E
+D
+R
+LAKE G
+R
+E
+G
+OR
+Y
+D
+R
+RIVERSIDE AVE
+66
+NORTH
+PARK BLVD
+L
+I
+T
+T
+L
+E
+M
+OUNT
+AIN DR
+ELECTRIC
+AVE
+Assembly District 62
+Northeast Part
+Map 2 of  3
+Legend
+Assembly Boundary
+State Boundary
+County Boundary
+City Boundary
+Major Highway
+Other Highway
+Other Road
+Railroad
+Outside District
+Major Landmarks
+Institutions
+0
+1
+Miles
+2
+R i v e r s i d e
+San Diego
+San Bernardino
+M E X I C O
+Orange
+80
+65
+66
+34
+64
+73
+75
+74
+70
+76
+54
+67
+Imperial
+Los Angeles
+77
+59
+71
+36
+63
+60
+79
+38
+62
+78
+61
+44
+72
+57
+43
+55
+56
+68
+49
+53
+69
+42
+P a c i
+f
+i
+c
+O c
+e a
+n
+Mapped
+Area
+
+HERMOSA 
+CEMETERY
+HILLSIDE
+CEMETERY
+AGUA MESA
+CEMETERY
+LOMA LINDA
+UNIVERSITY
+REDLANDS
+COMMUNITY 
+HOSPITAL
+SAN BERNARDINO
+VALLEY COLLEGE
+LOMA LINDA
+COMMUNITY
+HOSPITAL
+LOMA LINDA
+UNIVERSITY MEDICAL
+MONTECITO
+MEMORIAL PARK
+PALM MEADOWS
+GC
+UC
+RIVERSIDE
+VETERANS
+PARK
+VETERANS
+PARK
+WEST VALLEY
+PARK
+TERRACE
+HILLS PARK
+JENNIE DAVIS
+PARK
+BOX SPRINGS
+MOUNTAIN PARK
+REID
+PARK
+HUNTER
+PARK
+BORDWELL
+PARK
+ISLANDER
+PARK
+HIGHLAND
+PARK
+Colton
+Redlands
+Riverside
+San Bernardino
+Loma Linda
+Moreno Valley
+Grand
+Terrace
+Highgrove
+Rialto
+Rialto
+Highland
+I-10
+E Main St
+Cooley Ave
+Gould St
+Riverside
+Canal
+Coulston St
+Hardt St
+S Richardson
+St
+La Crosse Ave
+Davidson
+St
+Canal St
+Grand Terrace Rd
+Barton
+Rd
+Santa Ana River
+Industrial Rd
+SAN BERNARDINO 
+INTERNATIONAL
+AIRPORT
+63rd District
+64th District
+65th District
+65th District
+BARTON RD
+W RIALTO AVE
+PIGEON PASS RD
+S CADENA DR
+CHICAGO AVE
+MAIN ST
+S I ST
+3RD ST
+CENTER ST
+W MILL ST
+E MILL ST
+WATKINS DR
+PERRIS BLVD
+CHURCH ST
+CALIFORNIA ST
+REDLANDS BLVD
+OLIVE ST
+UNIVERSITY AVE
+BEAUMONT AVE
+KANSAS AVE
+E M ST
+MANZANITA AVE
+LUGONIA AVE
+N RANCHO AVE
+CENTER ST
+N CADENA DR
+CYPRESS AVE
+TIPPECANOE AVE
+SAN MATEO ST
+STATE HWY 38
+COLTON AVE
+SPRUCE
+ST
+E F ST
+FAIRWAY DR
+MOUNTAIN VIEW AVE
+ARROWHEAD AVE
+ANDERSON ST
+BROOKSIDE AVE
+TENNESSEE ST
+COLUMBIA
+AVE
+W BLAINE ST
+LAKESIDE AVE
+S RIVERSIDE AVE
+INLAND CENTER DR
+SLOVER AVE
+LOCUST AVE
+HEACOCK ST
+ SIERRA WAY
+FERN
+AVE
+PEPPER AVE
+S HUNTS LN
+14 TH ST
+LA CADENA DR
+SERPENTINE DR
+SAN BERNADINO AVE
+ALABAMA AVE
+UNIVERSITY ST
+MT VERNON AVE
+S 3RD ST
+HIGH ST
+S E ST
+WATERMAN AVE
+E WASHINGTON ST
+SAN TI
+MOT
+EO C
+ANY
+ON
+RD
+TERRACIN
+A BLVD
+RECHE CANYO
+N
+R
+D
+B
+O
+X
+S
+P
+R
+I
+N
+G
+S
+B
+L
+V
+D
+W
+AG
+UA
+MA
+NS
+A
+R
+D
+VALLEY B
+LVD
+A
+U
+T
+O
+P
+L
+A
+Z
+A
+D
+R
+62nd District
+60
+60
+91
+10
+10
+215
+215
+215
+Assembly District 62
+Southeast Part
+Map 3 of  3
+0
+1
+Miles
+2
+R i v e r s i d e
+San Diego
+San Bernardino
+M E X I C O
+Orange
+80
+65
+66
+34
+64
+73
+75
+74
+70
+76
+54
+67
+Imperial
+Los Angeles
+77
+59
+71
+36
+63
+60
+79
+38
+62
+78
+61
+44
+72
+57
+43
+55
+56
+68
+49
+53
+69
+42
+P a c i
+f
+i
+c
+O c
+e a
+n
+Mapped
+Area
+Legend
+Assembly Boundary
+State Boundary
+County Boundary
+City Boundary
+Major Highway
+Other Highway
+Other Road
+Railroad
+Outside District
+Major Landmarks
+Institutions
+
+C A L I F O R N I A  A S S E M B LY  D I S T R I C T S
+Assembly Redistricting Plan (SB 802), September 13, 2001
+The Honorable Robert M. Hertzberg, Speaker
+State Capitol
+Room 219
+Sacramento, CA 95814
+The California State Assembly Rules Committee
+The Honorable Dennis Cardoza, Chair
+P.O. Box 942849
+Sacramento, CA 94249-0001
+The California State Assembly Committee  on Elections, 
+   Reapportionment, and Constitutional Amendments
+The Honorable John Longville, Chair
+P.O. Box 942849
+Sacramento, CA 94249-0001
+Produced at California State University Northridge
+Dr. Jolene Koester, President
+Eugene Turner, Project Director
+Department of Geography
+18111 Nordhoff St.
+Northridge, CA 91330
+with
+Rubyjane Domingo, Pat Jolley, Meredith Leonard
+2001
+About the Maps
+These maps present specific information
+about the features comprising the borders of the
+Assembly Districts of California that were cre-
+ated after the 2000 Census. Each of the 80 dis-
+tricts are represented by one to ten maps with
+the number depending on the size of the district
+and the complexity of the features followed by
+the boundary. In general, the boundaries follow
+county lines, city limit lines, and roads, but
+occasionally canals, streams, and small roads
+are followed.
+The Assembly boundary data were creat-
+ed in digital form from Census 2000 TIGER
+files for California by Pactech Incorporated of
+Pasadena, CA. The boundary files were released
+in two forms, as a file of district polygons and
+as a file of line segments used to create the
+polygons. Where these line segments were iden-
+tified, those identifiers were used to label the
+map boundaries. In addition, place boundaries
+were created from the TIGER files.
+Other map information such as roads,
+railroads, coastlines, and landmarks were
+obtained from Geographic Data Technologies.
+Dynamap 2000 files (v10.1). Government land
+ownership information such as national forest
+boundaries was obtained from a government
+land ownership layer prepared by the California
+Teale Data Center.
+Maps were prepared from the digital
+files using Arcmap 8.1 software from
+Environmental Systems Research Incorporated.
+An Albers equal area projection was used for
+the maps with a central meridian of 120 degrees
+west longitude and standard parallels of 30 and
+40 degrees of latitude. Coordinates are based on
+NAD83.

@@ -1,0 +1,90 @@
+Peer Review Framework for Predictive Analytics
+in Humanitarian Response
+MODEL REPORT:
+Flood Anticipatory Action
+Trigger in Bangladesh
+UN OCHA Centre for Humanitarian Data
+June 2023
+
+Model Report:
+Flood Anticipatory Action Trigger in Bangladesh
+1. Background
+This report summarizes the documentation and findings of the peer review of the trigger used in
+UN OCHA’s Bangladesh Anticipatory Action framework for floods. The impact prediction model
+used as a basis for this trigger was developed by the UN OCHA Centre for Humanitarian Data.
+The go/no-go trigger mechanism is based on the GloFAS river discharge forecasts, combined
+with water level forecasts by the Bangladesh Flood Forecast and Warning Centre (FFWC). To
+find out more, please see the Anticipatory Action Framework for Bangladesh Floods.
+The review has been conducted between January and June 2023.
+2. Main Findings and Recommendations
+You can find all the documentation regarding the model, its application and the review process
+at the following links:
+●
+The Model Card describes version 1.0 of the model and was completed in January 2023.
+●
+The Model Evaluation Matrix was completed in March 2023 by Amy Kim, Data Scientist
+at Betterview, a property intelligence and risk management solution company.
+●
+The Implementation Plan was completed in March 2023. It summarizes the concrete
+actions that the model will trigger or inform.
+●
+The Ethical Matrix aims to identify all stakeholders and potential issues regarding the
+intended use of the model. The Ethical Matrix was completed in June 2023 by Aarathi
+Krishnan, Senior Advisor on Strategic Foresight at the UN Development Programme.
+A summary of the main findings and recommendations is provided below.
+2.1 Technical Review
+Intended Use
+●
+The definition of in-scope and out-of-scope use cases is clear, and the output of 1-in-10
+year return period riverine flooding is easily interpretable.
+●
+The constraint that flooding will occur only during the monsoon season (June -
+September) should be reviewed.
+
+Model Development and Documentation
+●
+GloFAS is a widely used, trusted and up-to-date source. In-depth research and skill
+analysis was performed, and justification was provided for the selection of monitoring
+stations.
+●
+Household survey used to determine water level threshold needs more documentation.
+Model Evaluation
+●
+A benchmarking process should be incorporated to evaluate model performance.
+●
+The peer review process should be completed before model deployment, rather than
+after.
+Operational Readiness
+●
+Readiness has been demonstrated as the model has already been deployed.
+●
+The model and data should be monitored in order to maintain readiness.
+●
+It would be nice for others to be able to run the GitHub repository analysis code.
+2.2 Ethical Review
+Inaccuracy
+The assumption that historical water level is an indicator of impact and river discharge is a good
+predictor of water level is based on how these metrics have been used historically. It does not
+take into account how these two assumptions might shift or change based on emerging climate
+risks that might shift water levels and/or river discharge. If the model cannot account for future
+risks that might shock linear projections, populations bear the brunt of inaccurate data.
+Statistical Bias
+While the model draws from global models, it is hard to see how this is validated/contextualized
+to the specific areas. The implementing agencies are all multilateral excluding Bangladesh Red
+Crescent Society and therefore there might be a bias in how data is interpreted. Without
+validation or accuracy of targeted populations, there might be groups that are excluded.
+Systemic Bias
+Targeted population identification is based on governmental datasets, but no information has
+been included about how that dataset is designed. There might be a risk of groups being
+deliberately excluded or specifically privileged. Without validation of potential systemic bias,
+political bias it is likely that there might be groups deliberately excluded or harmed.
+Insufficient Data
+As noted above, if there is no data about how future risks might shift, the baseline data set
+might not represent the current risk levels. This missing data/analysis could lead to incorrect
+
+allocations. It is recommended to consider long term impacts or risks in the next version of the
+trigger.
+Feedback
+The Centre invites individuals and organizations working in the humanitarian, academic,
+research and private sector to engage with us on the peer review process. Please send feedback
+on the Framework to centrehumdata@un.org.

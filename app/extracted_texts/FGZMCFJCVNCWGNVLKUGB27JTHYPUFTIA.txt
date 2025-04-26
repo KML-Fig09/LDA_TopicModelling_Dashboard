@@ -1,0 +1,100 @@
+24
+5
+204
+8
+Clothing & Diapers
+1
+13
+Food Vouchers
+8
+16
+Long Distance 
+Transportation
+0
+4
+Personal Grooming 
+Needs
+0
+3
+Transportation 
+Passes
+5
+0
+0
+3
+0
+1
+5
+0
+1
+0
+0
+1
+1
+2
+4
+0
+7
+4
+2
+0
+5
+13
+8
+3
+3
+0
+6
+2
+Outside of DC
+0
+122
+269
+191
+10
+DHS Weekly Shelter & Housing Occupancy Report
+for Family Programs
+Week of June 29 - July 5, 2008
+Virginia Williams Data
+Shelter Hotline
+Families Applying for Shelter
+Resources Provided to 
+Families Applying for Shelter
+Mediation
+Services Provided by VWFRC 
+Number of families applying for 
+Shelter at Virginia Williams FRC
+Number of families applying for 
+Shelter at Virginia Williams that 
+have applied for shelter before?
+Number of families with temporary 
+sleeping arrangements that are on 
+the Pending Case List
+Housing Search Assistance
+Case/Care Management
+Employment Preparation
+How many inquiries 
+for family shelter 
+were made after 
+hours?
+Comprehensive Information and 
+Referrals
+Temporary Financial Assistance
+Number of families Served in HUD Transitional Programs
+Shelter & Housing Program Data
+Number of families in temporary shelter
+Domestic Violence Shelter
+Faith Based Housing
+Entered Emergency Shelter
+Ineligible for shelter/ Denial
+Unknown/Disappeared/No Contact
+Number of families served in DHS Transitional programs
+Housing in a family member or friend's room/apartment
+Transitional Housing
+Closed cases- Number of families that have exited from receiving services 
+at VWFRC
+Ward Distribution of Families Served at Intake
+Other 
+Permanent Housing
+Rescinded Application
+Information generated for this report was pulled through the DC Homeless Management Information System

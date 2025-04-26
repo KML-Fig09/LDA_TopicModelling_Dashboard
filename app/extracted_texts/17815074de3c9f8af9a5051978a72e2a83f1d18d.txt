@@ -1,0 +1,105 @@
+Peer Review Framework for Predictive Analytics
+in Humanitarian Response
+MODEL REPORT:
+Trigger for OCHA Anticipatory
+Action on Drought in Chad
+Trigger developed by the UN OCHA Centre for Humanitarian Data
+June 2023
+
+Model Report:
+Trigger for OCHA Anticipatory Action on Drought in Chad
+1. Background
+This document summarizes the documentation and findings of the peer review of the model
+used by the UN Central Emergency Response Fund to trigger the drought anticipatory action
+framework in Chad. The model is a go-no-go trigger mechanism designed to anticipate
+humanitarian impacts of seasonal drought in a sub-region of Chad.
+The review has been conducted between January and May 2023.
+2. Main Findings and Recommendations
+You can find all the documentation regarding the model, its application and the review process
+at the following links:
+●
+The Model Card describes the version of the model that was endorsed by humanitarian
+action in November 2022 and was completed in January 2023.
+●
+The Model Evaluation Matrix was completed in February 2023 by Carlos Osorio-Ramírez,
+Associate Professor at Universidad Nacional de Colombia.
+●
+The Implementation Plan was completed in February 2023. It summarizes how the
+trigger model is used to trigger anticipatory action and the agreed activation protocol.
+●
+The Ethical Matrix aims to identify all stakeholders and potential issues regarding the
+intended use of the model. The Ethical Matrix was completed in May 2023 by Anna Lena
+Huhn, Southern Africa Regional Anticipatory Action Advisor at the United Nations World
+Food Programme.
+A summary of the main findings and recommendations is provided below.
+2.1 Technical Review
+Intended Use
+Overall, the use cases are well-described and adequately explained. The documentation of the
+limitations of the model could be extended in its description, as is the case of the biomass
+anomaly and its connection with scenarios like extreme dryness or late onset.
+
+Model Development and Documentation
+It is advisable to provide further documentation on the different data sources used by the team
+to validate the selection of indicators and estimate the performance of the model. Also, some
+data is not available in a machine readable format and it would be good to explain how the team
+dealt with this issue.
+Model Evaluation
+It is unclear what is an acceptable level of accuracy for the model. The team should better
+articulate how the performance benchmark was established and how the performance metrics
+were evaluated and presented to the final stakeholders.
+Operational Readiness
+It would be good to expand the analysis of the missed activations of the models and the
+potential false alarms that the model could be providing.
+2.2 Ethical Review
+False Negatives
+A false negative occurs when no drought impact is predicted but drought conditions occur.
+The team could consider additional mitigation strategies such as the use of citizen science or
+ground observations to complement the forecast-based trigger.
+Insufficient Data
+Insufficient data refers to the gaps in impact data used to verify the forecast predictions.
+Insufficient data might limit the precise prediction of forecasted humanitarian impact and
+expose local populations to adverse humanitarian impact induced by a drought event, requiring
+a large-scale humanitarian response ex-post. The team should consider the feasibility of adding
+further vulnerability layers in future iterations of the model.
+False Positives
+A false positive happens when drought impact is predicted but no drought conditions occur.
+Anticipatory action follows the ‘no regret’ principle, but a false alarm can still lead to inadequate
+resource allocation with a high potential impact on affected communities. The anticipatory
+action framework could indicate a precise mitigation strategy in a clearer manner.
+Lack of Trust and Ownership
+Lack of trust and ownership refers to the limited involvement of local and regional authorities in
+the model design and validation. This may lead to little ownership and trust put into the model
+and eventually to political blockages in activations. In future framework versions a clear strategy
+
+for the involvement of affected populations and an approach to accountability to affected
+populations should be identified.
+Lack of Transparency
+Lack of transparency refers to the algorithms not being made available or not being transparent.
+The anticipatory action framework should reflect clearer strategies to engage with local leaders
+to better understand what is happening on the ground and obtain early buy-in. Mitigation
+strategy for a potential lack of transparency should be expanded in the model card and/or the
+anticipatory action framework.
+Inaction
+Inaction refers to the situation in which drought impact is predicted but no action is taken.
+Inaction in case of trigger activation is unlikely, given the pre-allocated financing attached to it
+and the UN-validated anticipatory action framework. Inaction might nevertheless be a
+possibility, if government or local authorities block the roll-out of interventions on the ground or
+in
+case
+of
+conflict
+upsurge.
+The
+team
+could
+consider
+adding
+a
+consensus-based
+decision-making option around activation or non-activation in the event of specific events or
+situational context not considered in the model design (e.g., higher levels of vulnerability or
+increase in armed conflict, etc.)
+Feedback
+The Centre invites individuals and organizations working in the humanitarian, academic,
+research and private sector to engage with us on the peer review process. Please send feedback
+on the Framework to centrehumdata@un.org.
