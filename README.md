@@ -16,6 +16,10 @@ Users can:
 - 📊 Visualize topic relationships interactively (pyLDAvis)
 - 📝 Explore document snippets linked to each theme
 
+And additionally,
+
+- 🛠 Build their own LDA Topic Model and streamlit dashboard (and, optionally, extract text from their own PDF dataset) using the notebook provided at TopicModellingDashboard.ipynb. (This works best in Google Colab)
+
 ---
 
 ## 🛠 Technologies Used
@@ -41,6 +45,8 @@ lda-topic-modelling-dashboard/
 ├── run.py
 ├── requirements.txt
 ├── README.md
+├── TopicModellingDashboard.ipynb
+
 ```
 
 ---
